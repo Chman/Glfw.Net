@@ -7,8 +7,8 @@
     <ProjectGuid>{5C569301-50C6-47C4-9850-6CB36D4DA267}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Glfw</RootNamespace>
-    <AssemblyName>Glfw</AssemblyName>
+    <RootNamespace>Glfw3</RootNamespace>
+    <AssemblyName>Glfw.Net</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
