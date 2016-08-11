@@ -173,6 +173,7 @@ namespace Glfw3
             {
                 if (obj is Monitor)
                     return Equals((Monitor)obj);
+
                 return false;
             }
 
@@ -237,7 +238,12 @@ namespace Glfw3
 
             public bool Equals(VideoMode obj)
             {
-                return false;
+                return obj.Width == Width
+                    && obj.Height == Height
+                    && obj.RedBits == RedBits
+                    && obj.GreenBits == GreenBits
+                    && obj.BlueBits == BlueBits
+                    && obj.RefreshRate == RefreshRate;
             }
 
             public override string ToString()
