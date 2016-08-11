@@ -12,7 +12,7 @@ namespace Glfw3
         public struct Cursor : IEquatable<Cursor>
         {
             /// <summary>
-            /// <para>Null monitor pointer.</para>
+            /// <para>Null cursor pointer.</para>
             /// </summary>
             public static readonly Cursor None = new Cursor(IntPtr.Zero);
 
