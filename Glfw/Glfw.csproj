@@ -37,11 +37,11 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Glfw3\Glfw.cs" />
-    <Compile Include="Glfw3\Glfw.Delegate.cs" />
-    <Compile Include="Glfw3\Glfw.Enum.cs" />
-    <Compile Include="Glfw3\Glfw.Func.cs" />
-    <Compile Include="Glfw3\Glfw.Struct.cs" />
+    <Compile Include="Glfw\Glfw.cs" />
+    <Compile Include="Glfw\Glfw.Delegate.cs" />
+    <Compile Include="Glfw\Glfw.Enum.cs" />
+    <Compile Include="Glfw\Glfw.Func.cs" />
+    <Compile Include="Glfw\Glfw.Struct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
